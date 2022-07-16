@@ -66,20 +66,20 @@ const Navbar = () => {
   const { theme, setTheme } = useTheme();
   const [active, setActive] = useState('Explore NFTs');
   const router = useRouter();
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="flexBetween w-full fixed z-10 p-4 flex-row border-b dark:bg-nft-dark bg-white dark:border-nft-black-1 border-nft-gray-1">
       <div className="flex flex-1 flex-row justify-start" onClick={() => { }}>
         <Link href="/">
           <div className="flexCenter md:hidden cursor-pointer">
-            <Image src={images.logo02} objectFit="contain" width={32} height={32} alt="Logo" />
+            {/* <Image src={images.logo02} objectFit="contain" width={32} height={32} alt="Logo" /> */}
             <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">LOGO</p>
           </div>
         </Link>
         <Link href="/">
           <div className="hidden md:flex" onClick={() => { }}>
-            <Image src={images.logo02} objectFit="contain" width={32} height={32} alt="Logo" />
+            {/* <Image src={images.logo02} objectFit="contain" width={32} height={32} alt="Logo" /> */}
           </div>
         </Link>
       </div>

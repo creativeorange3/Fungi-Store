@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="w-full sm:px-4 px-16 minmd:w-4/5 flex flex-row md:flex-col">
         <div className="flexStart flex-1 flex-col">
           <div className="flexCenter cursor-pointer">
-            <Image src={images.logo02} objectFit="contain" width={32} height={32} alt="Logo" />
+            {/* <Image src={images.logo02} objectFit="contain" width={32} height={32} alt="Logo" /> */}
             <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">LOGO</p>
           </div>
           <p className="font-poppins dark:text-white text-nft-black-1 font-semibold text-base mt-6">
